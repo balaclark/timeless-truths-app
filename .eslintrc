@@ -1,0 +1,20 @@
+{
+  "extends": ["standard", "standard-react"],
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "react/forbid-prop-types": [2, {"forbid":["object", "array"]}],
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "plugins": [
+    "react",
+    "react-native"
+  ]
+}

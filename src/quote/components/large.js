@@ -21,11 +21,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF'
   },
   largeQuote: {
-    fontSize: 20,
+    fontFamily: 'Rasa-Regular',
+    fontSize: 26,
+    lineHeight: 34,
     textAlign: 'center',
+    color: '#000000',
     margin: 10
   },
   largeRef: {
+    fontFamily: 'Rasa-Regular',
+    fontSize: 16,
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5

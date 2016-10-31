@@ -5,7 +5,9 @@ import Quote from './src/quote/components/large'
 
 const TimelessTruths = () => (
   <View style={styles.container}>
-    <Quote text="Hare Krishna" reference="Srila Prabhupada" />
+    <Quote
+      text="When the Lord is pleased with one's service, one's mission in life is fulfilled."
+      reference="A.C. Bhaktivedanta Swami Prabhupada, Srimad Bhagavatam 4.20.9 p." />
   </View>
 )
 
